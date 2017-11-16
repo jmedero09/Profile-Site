@@ -17,7 +17,7 @@ body{
     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
                  0px 8px 13px rgba(0, 0, 0, 0.1),
                  0px 18px 23px rgba(0, 0, 0, 0.1);
-    background-image: url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?auto=format&fit=crop&w=2089&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?auto=format&fit=crop&w=2089&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -38,13 +38,13 @@ hr{
 /*-------------------------------------------------*/
 /*About Me Section*/
 /*-------------------------------------------------*/
-.aboutMe{
+.about-me{
     margin-top:10%;
 }
 .thumbnail{
     margin-top:10%;
 }
-.sectionHeader{
+.section-header{
     text-align: center;
     color: black;
     margin-top:5%;
@@ -57,6 +57,17 @@ p{
 /*-------------------------------------------------*/
 /*Project Section*/
 /*-------------------------------------------------*/
-.projectSection{
+.project-section{
     background-color: #f4f4f4;
+    padding-left: 10px;
+    padding-right:10px;
 }
+.project-caption{
+    line-height: 1.95;
+    text-align: center;
+    
+}
+.project-content>img{
+    height:264px;
+}
+
