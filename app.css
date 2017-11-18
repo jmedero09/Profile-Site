@@ -4,9 +4,9 @@ body{
     font-family: Lato;
     box-sizing: border-box;
 }
-.container-fluid {
-    padding-right: 0px;
+.col-md-12{
     padding-left: 0px;
+    padding-right: 0PX;
 }
 .navbar {
     margin-bottom: 0px;
@@ -34,12 +34,12 @@ hr{
     border-top:1px solid #f8f8f8;
     border-bottom:1px solid rgba(0,0,0,0.2);
 }
-
 /*-------------------------------------------------*/
 /*About Me Section*/
 /*-------------------------------------------------*/
 .about-me{
     margin-top:10%;
+    padding-bottom:30%;
 }
 .thumbnail{
     margin-top:10%;
@@ -61,6 +61,7 @@ p{
     background-color: #f4f4f4;
     padding-left: 10px;
     padding-right:10px;
+    padding-bottom: 10%;
 }
 .project-caption{
     line-height: 1.95;
@@ -68,6 +69,22 @@ p{
     
 }
 .project-content>img{
-    height:264px;
+    min-height:264px;
+    max-height:394px;
+}
+/*-------------------------------------------------*/
+/*Contact Section*/
+/*-------------------------------------------------*/
+.contact-section{
+    padding-bottom: 10%;
+}
+form{
+    color: black;
 }
 
+.contact-helper-text{
+    text-align: center;
+}
+textarea {
+    resize: none;
+}
